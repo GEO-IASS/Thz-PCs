@@ -79,7 +79,8 @@ Header
 ------------------------------------------------------------ */
   header {
     background-color: #010012;
-    min-height: 5em;
+    height: 5em;
+    padding: .5em;
   }
   header > img {
     height: 100%;

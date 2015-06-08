@@ -13,9 +13,12 @@
   /* ------------------------------------------------------------
   Header
   ------------------------------------------------------------ */
-  header {
-    min-height: 15em;
-  }
+    header {
+      height: 12em;
+    }
+    header > h1 {
+      font-size: 3.5em;
+    }
     
   /* ------------------------------------------------------------
   Main body/view area
@@ -23,11 +26,9 @@
 
     /***** Every page *****/
       .fakeTable {
-        overflow: hidden;
       }
       .fakeTable > li {
-        width: 50%;
-        float: left;
+        width: 33%;
       }
 
     /***** Home/landing page *****/
